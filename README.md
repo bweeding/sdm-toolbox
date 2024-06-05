@@ -33,4 +33,4 @@ Download Planted Forest East Asia data
     wget https://figshare.com/ndownloader/files/41222436 -O PlantedForestEastAsia.shx -P ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
     wget https://figshare.com/ndownloader/files/41222439 -O PlantedForestEastAsia.prj -P ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
     wget https://figshare.com/ndownloader/files/41222430 -O PlantedForestEastAsia.shp -P ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
-    wget https://figshare.com/ndownloader/articles/21774725/versions/3 -O planted-forest-east-asia.zip -P ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
+    zip ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/planted-forest-east-asia.zip ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/*
