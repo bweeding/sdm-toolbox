@@ -46,3 +46,4 @@ In order to keep track of your github repositories on your computer, it is recom
     wget https://figshare.com/ndownloader/files/41222430 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.dbf
     cd ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/
     zip planted-forest-east-asia.zip *
+
