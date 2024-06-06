@@ -32,17 +32,17 @@ In order to keep track of your github repositories on your computer, it is recom
 
 [Copernicus Dynamic Land Cover](https://land.copernicus.eu/en/products/global-dynamic-land-cover)
 
-    wget https://zenodo.org/records/3939050/files/PROBAV_LC100_global_v3.0.1_2019-nrt_Forest-Type-layer_EPSG-4326.tif -P ~/checkouts/sdm-toolbox/data/species/land-cover/
+    wget https://zenodo.org/records/3939050/files/PROBAV_LC100_global_v3.0.1_2019-nrt_Forest-Type-layer_EPSG-4326.tif -P ~/checkouts/sdm-toolbox/data/land-cover/
 
 
 **Planted Forest East Asia data dataset from Abbasi et al. 2023**
 
 [Abbasi et al. 2023](https://www.nature.com/articles/s41597-023-02383-w)
 
-    mkdir ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia
-    wget https://figshare.com/ndownloader/files/41222433 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.shp
-    wget https://figshare.com/ndownloader/files/41222436 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.shx
-    wget https://figshare.com/ndownloader/files/41222439 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.prj
-    wget https://figshare.com/ndownloader/files/41222430 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.dbf
-    cd ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
+    mkdir ~/checkouts/sdm-toolbox/data/planted-forest-east-asia
+    wget https://figshare.com/ndownloader/files/41222433 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.shp
+    wget https://figshare.com/ndownloader/files/41222436 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.shx
+    wget https://figshare.com/ndownloader/files/41222439 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.prj
+    wget https://figshare.com/ndownloader/files/41222430 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.dbf
+    cd ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/
     zip planted-forest-east-asia.zip *
