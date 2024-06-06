@@ -1,4 +1,4 @@
-name: aciar
+name: sdm-toolbox
 channels:
   - conda-forge
 dependencies:
@@ -19,6 +19,6 @@ dependencies:
   - geocube
   - ipywidgets
   - elapid
-  - pip:
-      - chelsa-cmip6
-      - pyModis
+#   - pip:
+#       - chelsa-cmip6
+#       - pyModis
