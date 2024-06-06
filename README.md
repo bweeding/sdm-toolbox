@@ -14,19 +14,21 @@ In order to keep track of your github repositories on your computer, it is recom
     cd ~/checkouts
     git clone https://github.com/janjaapmeijer/sdm-toolbox sdm-toolbox
 
-## Download and save WorldClim data in /data folder
+## Download and save WorldClim data
 
-Donwload Bioclim data
+### Bioclim data
 
     wget -P ~/checkouts/sdm-toolbox/data https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_bio.zip
     unzip wc2.1_10m_bio.zip -d ~/checkouts/sdm-toolbox/data
 
-Download Topography data
+### Topography data
 
     wget -P ~/checkouts/sdm-toolbox/data https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_elev.zip
     unzip wc2.1_10m_elev.zip -d ~/checkouts/sdm-toolbox/data
 
-Download Planted Forest East Asia data
+## Download additional data
+
+### Planted Forest East Asia data from Abbasi et al. 2023
 
     mkdir ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia
     wget https://figshare.com/ndownloader/files/41222433 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.shp
