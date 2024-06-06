@@ -29,8 +29,9 @@ Download Topography data
 Download Planted Forest East Asia data
 
     mkdir ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia
-    wget https://figshare.com/ndownloader/files/41222433 -O PlantedForestEastAsia.shp -P ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
-    wget https://figshare.com/ndownloader/files/41222436 -O PlantedForestEastAsia.shx -P ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
-    wget https://figshare.com/ndownloader/files/41222439 -O PlantedForestEastAsia.prj -P ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
-    wget https://figshare.com/ndownloader/files/41222430 -O PlantedForestEastAsia.shp -P ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
-    zip ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/planted-forest-east-asia.zip ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/*
+    wget https://figshare.com/ndownloader/files/41222433 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.shp
+    wget https://figshare.com/ndownloader/files/41222436 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.shx
+    wget https://figshare.com/ndownloader/files/41222439 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.prj
+    wget https://figshare.com/ndownloader/files/41222430 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.dbf
+    cd ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/
+    zip planted-forest-east-asia.zip *
