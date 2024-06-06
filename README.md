@@ -29,6 +29,7 @@ In order to keep track of your github repositories on your computer, it is recom
 ## Download additional data
 
 **Land Cover/ Forest Type dataset**
+
 [Copernicus Dynamic Land Cover](https://land.copernicus.eu/en/products/global-dynamic-land-cover)
 
     wget https://zenodo.org/records/3939050/files/PROBAV_LC100_global_v3.0.1_2019-nrt_Forest-Type-layer_EPSG-4326.tif -P ~/checkouts/sdm-toolbox/data/species/land-cover/
