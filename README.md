@@ -37,6 +37,8 @@ In order to keep track of your github repositories on your computer, it is recom
 
 **Planted Forest East Asia data dataset from Abbasi et al. 2023**
 
+[Abbasi et al. 2023](https://www.nature.com/articles/s41597-023-02383-w)
+
     mkdir ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia
     wget https://figshare.com/ndownloader/files/41222433 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.shp
     wget https://figshare.com/ndownloader/files/41222436 -O ~/checkouts/sdm-toolbox/data/species/planted-forest-east-asia/PlantedForestEastAsia.shx
