@@ -46,7 +46,7 @@ In order to keep track of your github repositories on your computer, it is recom
     wget https://figshare.com/ndownloader/files/41222436 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.shx
     wget https://figshare.com/ndownloader/files/41222439 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.prj
     wget https://figshare.com/ndownloader/files/41222430 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.dbf
-    zip ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/planted-forest-east-asia.zip *
+    zip ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/planted-forest-east-asia.zip ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/*
 
 **Normalised Difference Vegetation Index dataset**
 
