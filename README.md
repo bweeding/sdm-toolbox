@@ -16,6 +16,8 @@ In order to keep track of your github repositories on your computer, it is recom
 
 ## Download and save WorldClim data
 
+[WorldClim](https://worldclim.org/data/worldclim21.html)
+
 **Bioclim dataset**
 
     wget -P ~/checkouts/sdm-toolbox/data https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_bio.zip
