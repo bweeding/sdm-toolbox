@@ -16,15 +16,17 @@ In order to keep track of your github repositories on your computer, it is recom
 
 ## Download and save WorldClim data
 
+[WorldClim](https://worldclim.org/data/worldclim21.html)
+
 **Bioclim dataset**
 
     wget -P ~/checkouts/sdm-toolbox/data https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_bio.zip
-    unzip wc2.1_10m_bio.zip -d ~/checkouts/sdm-toolbox/data
+    unzip ~/checkouts/sdm-toolbox/data/wc2.1_10m_bio.zip -d ~/checkouts/sdm-toolbox/data/worldclim
 
 **Topography dataset**
 
     wget -P ~/checkouts/sdm-toolbox/data https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_elev.zip
-    unzip wc2.1_10m_elev.zip -d ~/checkouts/sdm-toolbox/data
+    unzip ~/checkouts/sdm-toolbox/data/wc2.1_10m_elev.zip -d ~/checkouts/sdm-toolbox/data/worldclim
 
 ## Download additional data
 
@@ -44,8 +46,7 @@ In order to keep track of your github repositories on your computer, it is recom
     wget https://figshare.com/ndownloader/files/41222436 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.shx
     wget https://figshare.com/ndownloader/files/41222439 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.prj
     wget https://figshare.com/ndownloader/files/41222430 -O ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/PlantedForestEastAsia.dbf
-    cd ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/
-    zip planted-forest-east-asia.zip *
+    zip ~/checkouts/sdm-toolbox/data/planted-forest-east-asia/planted-forest-east-asia.zip *
 
 **Normalised Difference Vegetation Index dataset**
 
