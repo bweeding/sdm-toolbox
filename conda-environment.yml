@@ -5,6 +5,7 @@ dependencies:
   - python=3.11
   - ipykernel
   - ipywidgets
+  - jupyterlab
   - xarray
   - rasterio
   - rioxarray
@@ -17,7 +18,7 @@ dependencies:
   - cartopy
   - esgf-pyclient
   - geocube
-  - ipywidgets
+  - geowombat
   - elapid
 #   - pip:
 #       - chelsa-cmip6
