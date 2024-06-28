@@ -19,12 +19,12 @@ In order to keep track of your github repositories on your computer, it is recom
 **Bioclim dataset**
 
     wget -P ~/checkouts/sdm-toolbox/data https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_bio.zip
-    unzip wc2.1_10m_bio.zip -d ~/checkouts/sdm-toolbox/data/worldclim
+    unzip ~/checkouts/sdm-toolbox/data/wc2.1_10m_bio.zip -d ~/checkouts/sdm-toolbox/data/worldclim
 
 **Topography dataset**
 
     wget -P ~/checkouts/sdm-toolbox/data https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_elev.zip
-    unzip wc2.1_10m_elev.zip -d ~/checkouts/sdm-toolbox/data/worldclim
+    unzip ~/checkouts/sdm-toolbox/data/wc2.1_10m_elev.zip -d ~/checkouts/sdm-toolbox/data/worldclim
 
 ## Download additional data
 
