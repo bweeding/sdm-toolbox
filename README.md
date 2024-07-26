@@ -1,4 +1,4 @@
-# SDM-Toolbox
+<!-- # SDM-Toolbox
 A toolbox for specie distribution modelling in Maxent
 
 ## Clone this repository
@@ -54,3 +54,4 @@ In order to keep track of your github repositories on your computer, it is recom
 [Copernicus NDVI](https://land.copernicus.eu/en/products/vegetation/normalised-difference-vegetation-index-v3-0-1km)
 
     wget https://land.copernicus.vgt.vito.be/PDF/datapool/Vegetation/Indicators/NDVI_Statistics/1999/12/21/NDVI-LTS_1999-2019-1221_GLOBE_VGT-PROBAV_V3.0.1/c_gls_NDVI-LTS_1999-2019-1221_GLOBE_VGT-PROBAV_V3.0.1.nc -P ~/checkouts/sdm-toolbox/data/ndvi
+ -->
